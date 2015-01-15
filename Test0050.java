@@ -32,4 +32,16 @@ public class Test0050
         } 
         return cociente;
     }
+
+    public int modulos(int dividendo, int divisor)
+    { 
+        int cociente = 0;
+        int modulo = 0;
+        while ( dividendo > 0 && dividendo >= divisor)
+        {
+            dividendo = dividendo - divisor;
+            cociente = cociente + 1;
+        }
+        return cociente;
+    }
 }
