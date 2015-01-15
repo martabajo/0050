@@ -22,4 +22,14 @@ public class Test0050
 
     }
 
+    public int divisiones(int dividendo, int divisor)
+    {
+        int cociente = 0; 
+        while (dividendo >= divisor) 
+        { 
+            dividendo = dividendo - divisor; 
+            cociente = cociente + 1; 
+        } 
+        return cociente;
+    }
 }
